@@ -214,7 +214,7 @@ flowchart TD
   - [Microsoft AdventureWorks Sample Databases](https://github.com/microsoft/sql-server-samples)  
 - **Power BI:** Microsoft Power BI Desktop for visualization  
 - **MS Fabric:** Microsoft Fabric for enterprise-scale data integration  
-- Analysis, markdown preparation, and insights: **Anilwhatsapp Mon**  
+- Analysis, markdown preparation, and insights: **AwesomeAnil**  
 
 ---
 
@@ -223,9 +223,3 @@ flowchart TD
 - Ready for **investor, boardroom, or consultant presentation**.  
 - Full Power BI dashboards and Fabric integration are **available for review**.  
 - Highlights ability to **translate enterprise data into strategic, actionable insights**.  
-
-
-
-
-
-
