@@ -16,9 +16,37 @@
 - Demonstrates how **MS Fabric empowers analysts** to combine enterprise-scale datasets.  
 - Historical data analysis reveals **trends, anomalies, and strategic insights**.  
 - Visualized through **Power BI dashboards**, enabling **clear executive decision-making**.  
-- Highlights skills that hiring managers and recruiters **value for business intelligence, analytics, and commercial strategy roles**.  
+- Highlights skills that stakeholders & decision makers  **value for business intelligence, analytics, and commercial strategy roles**.  
 
-**[Insert motivation visual: workflow diagram of Fabric → Data Lake → Power BI dashboards]**
+### 📊 **AdventureWorks ReSeller Sales Analysis (2005–2014) Extended Version**
+
+
+
+#### 🔹 1️⃣ Enterprise Data Access & Integration
+- 🏞️ MS Fabric Lakehouse  
+- 🖥️ On-prem SQL Server + Power BI Gateway  
+- 🔗 Seamless integration of historical transactional data  
+
+#### 🔹 2️⃣ Historical Analysis
+- 📅 10 years of reseller data  
+- 📈 Key measures: Avg Sales, Units Sold, Discounts appled, Unit Costs, Unit Prices  & Product Margins
+- 🕵️‍♂️ Trend detection, anomaly spotting, scenario comparison  
+
+#### 🔹 3️⃣ Insights & Inferences
+- 💵 Revenue spikes vs. margin erosion  
+- 🎯 Impact of discount campaigns on profitability  
+- 📉 Identify sustainable vs. short-term strategies  
+
+#### 🔹 4️⃣ Showcase Skills
+- 📊 Power BI visualizations and dashboards  
+- 🏛️ Boardroom-ready insights for executives  
+- 💡 Demonstrates technical + business acumen  
+
+---
+
+### 🔹 🎯 Result
+- ✅ Convincing storytelling for investors & recruiters  
+- ✅ Highlights ability to translate enterprise data into strategic decisions  
 
 ---
 
@@ -194,6 +222,7 @@ flowchart TD
 - Ready for **investor, boardroom, or recruiter presentation**.  
 - Full Power BI dashboards and Fabric integration are **available for review**.  
 - Highlights ability to **translate enterprise data into strategic, actionable insights**.  
+
 
 
 
