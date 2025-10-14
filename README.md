@@ -1,3 +1,4 @@
+![Project Banner](docs/banner.png)
 # 🚀 AdventureWorks 2016 Extended ReSeller Sales Analysis
 
 [![MS Fabric](https://img.shields.io/badge/MS%20Fabric-Cloud-blue?logo=microsoft)](https://learn.microsoft.com/en-us/fabric/get-started)
