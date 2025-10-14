@@ -36,6 +36,48 @@
 
 **[Insert architecture diagram icon + arrows for data flow]**
 
+```mermaid
+flowchart TD
+    %% Section: Source and SQL Server Setup
+    A1[📦 Source: AdventureWorks 2016.bak file] --> A2[🖥️ Install SQL Server + SSMS Docker Image Recommended]
+    A2 --> A3[➕ Restore .bak file to SQL Server<br>→ On-Prem Database Ready]
+
+    %% Section: Power BI Gateway
+    A3 --> B1[🔌 Install Power BI Gateway]
+    
+    %% Section: Fabric Pipeline
+    B1 --> C1[☁️ MS Fabric Trial Capacity]
+    C1 --> C2[🆕 Create New Data Pipeline]
+    C2 --> C3[🔗 Use Gateway to connect to SQL Server On-Prem]
+    C3 --> C4[🏞️ Destination: AdventureWorks Fabric Lakehouse]
+    C4 --> C5[▶️ Run Pipeline to Import Selected Tables]
+
+    %% Section: Power BI Reporting
+    C5 --> D1[📊 Build Power BI Reports connecting to AdventureWorks Lakehouse]
+
+    %% Styling: Colors
+    classDef source fill:#fef3c7,stroke:#f59e0b,stroke-width:2px,white-space:normal;
+    classDef process fill:#dbeafe,stroke:#3b82f6,stroke-width:2px,white-space:normal;
+    classDef output fill:#dcfce7,stroke:#16a34a,stroke-width:2px,white-space:normal;
+
+    class A1,A2,A3 source;
+    class B1,C1,C2,C3,C4,C5 process;
+    class D1 output;
+
+    %% Optional wider styling (if supported by Mermaid renderer)
+    style A1 width:250px
+    style A2 width:250px
+    style A3 width:250px
+    style B1 width:250px
+    style C1 width:250px
+    style C2 width:250px
+    style C3 width:250px
+    style C4 width:250px
+    style C5 width:250px
+    style D1 width:250px
+
+```
+
 ---
 
 ## 📊 Slide 4: Key Measures & Methodology
@@ -152,5 +194,6 @@
 - Ready for **investor, boardroom, or recruiter presentation**.  
 - Full Power BI dashboards and Fabric integration are **available for review**.  
 - Highlights ability to **translate enterprise data into strategic, actionable insights**.  
+
 
 
