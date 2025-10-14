@@ -1,3 +1,4 @@
+![Banner](banner.png)
 # 🌎 AdventureWorks 2016 Extended — ReSeller Sales Performance Analysis (2005–2014)
 
 ---
@@ -222,6 +223,7 @@ flowchart TD
 - Ready for **investor, boardroom, or consultant presentation**.  
 - Full Power BI dashboards and Fabric integration are **available for review**.  
 - Highlights ability to **translate enterprise data into strategic, actionable insights**.  
+
 
 
 
