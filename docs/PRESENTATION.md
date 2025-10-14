@@ -219,9 +219,10 @@ flowchart TD
 
 ## ✅ Slide 13: Closing / Call-to-Action
 - AdventureWorks analysis demonstrates **technical, analytical, and commercial acumen**.  
-- Ready for **investor, boardroom, or recruiter presentation**.  
+- Ready for **investor, boardroom, or consultant presentation**.  
 - Full Power BI dashboards and Fabric integration are **available for review**.  
 - Highlights ability to **translate enterprise data into strategic, actionable insights**.  
+
 
 
 
