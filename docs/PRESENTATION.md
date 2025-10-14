@@ -62,9 +62,9 @@
 - Units per transaction remained flat (~3.5 units).  
 - Post-2012: sales returned to baseline (~\$948M) as promotional campaigns ended.  
 
-**[Insert line chart: Total Sales by Fiscal Year & Category]**
+**Total Sales by Fiscal Year & Category]**
 
-
+![Total Sales](/images/Total_Sales.png)
 
 ---
 
@@ -74,7 +74,13 @@
 - Gross Margins collapsed (negative for high-cost categories)  
 - Revenue spike achieved **at the expense of profitability**  
 
-**[Insert dual-axis chart: Avg Discounts % vs Gross Margins]**
+**Avg Discounts**
+
+![Average Discounts](/images/Avg_Discounts.png)
+
+**Unit Prices**
+
+![Unit Prices](/images/Unit_Price.png)
 
 ---
 
@@ -84,7 +90,9 @@
 - Revenue peak is **transaction-driven, not per-unit**  
 - Post-promotion normalization by 2014  
 
-**[Insert bar chart: Total Units Sold by Fiscal Year & Category]**
+**Total Units Sold by Fiscal Year & Category]**
+
+![Total Units Sold](/images/Total_Units_Sold.png)
 
 ---
 
@@ -93,7 +101,9 @@
 - Temporary margin collapse 2010–2012 due to discounting strategy  
 - Recovery by 2014 aligns with **sustainable pricing and discount strategy**  
 
-**[Insert stacked area chart: Gross Margins by Category & Year]**
+**Gross Margins by Category & Year**
+
+![Gross Margins](/images/GM.png)
 
 ---
 
@@ -114,15 +124,17 @@
 ---
 
 ## 📂 Slide 11: Appendix / Charts
-- Avg Sales w/ vs w/o Discounts  
-- Avg Discounts  
-- Avg Unit Prices  
-- Total Units Sold  
-- Gross Margins  
-- Total Sales  
-- Product Cost trends  
+- **Avg Sales w/ Discounts**
 
-**[Insert placeholder icons for each chart, link to `/images/` in repo]**
+![Average Sales with Discounts](/images/Avg_sales_w_discounts.png) 
+
+- **Avg Sales w/ Discounts (hypothetical)**
+
+![Average Sales without Discounts](/images/Avg_sales_wo_discounts.png)
+
+- **Product Cost trends**
+
+![Average Product Costs](/images/Avg_Product_Costs.png)
 
 ---
 
@@ -140,4 +152,5 @@
 - Ready for **investor, boardroom, or recruiter presentation**.  
 - Full Power BI dashboards and Fabric integration are **available for review**.  
 - Highlights ability to **translate enterprise data into strategic, actionable insights**.  
+
 
