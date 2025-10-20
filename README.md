@@ -154,7 +154,15 @@ This project demonstrates:
 
 ## 📌 Next Steps
 
-1. Expand analysis to **Internet Sales** tables.  
-2. Integrate **Python predictive modeling** for forecasting.  
-3. Build **interactive dashboards** with slicers for scenario simulation.  
-4. Showcase **storytelling-ready slides** for boardroom presentations.
+1. **Implement Advanced Pricing Analytics**
+Develop models to study price elasticity and demand sensitivity, ensuring pricing strategies optimize both volume and margin sustainably.
+2. **Integrate Predictive and Prescriptive Analytics**
+Use Python or Azure ML integration to build forecasting and scenario simulation models that guide future pricing and sales strategies.
+3. **Enhance Governance Monitoring Dashboards**
+Build Power BI dashboards that track compliance to pricing policies and margin thresholds, flagging risks in real time.
+4. **Develop Interactive Scenario Simulations*
+Enable stakeholders to simulate various pricing, discount, and volume scenarios to visualize business impact through what-if analysis.
+5. **Extend Storytelling for Different Audiences**
+Tailor storytelling dashboards and slides for executives, sales teams, and governance committees to support data-driven decision making.
+6. **Document Governance Framework and Ethical Guidelines**
+Explicitly outline governance principles and ethical sales standards informed by data insights, to embed accountability in commercial operations.
