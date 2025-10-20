@@ -90,22 +90,26 @@ flowchart TD
 
 ---
 
-## 📊 Key Analyses & Insights
+## 📊 Key Insights & Takeaways
 
-1. Sales Performance
-  - Bikes and Components dominate revenue.
-  - Discounts in 2010–2012 drove sales but significantly impacted gross margins.
-
-2. Margins & Profitability
-  - Margins dipped notably during high-discount years.
-  - Accessories maintain stable margins; Bikes and Components show volatility.
-
-3. Units Sold vs. Revenue
-  - Units sold remained relatively stable, but revenue fluctuated due to pricing and discount strategies.
-  
-4. Scenario Analysis
-  - Hypothetical no-discount scenario reveals potential revenue optimization opportunities.
-  - Enables boardroom discussions on pricing strategy and margin management.
+1. **Revenue Growth Conceals Margin Erosion Risks**
+Both channels experienced top-line growth; however, underlying margin deterioration was driven by different pricing failures rather than discounting.
+2. **Reseller Sales Margin Erosion Caused by Runaway Average Unit Price Reductions**
+In Reseller Sales, aggressive cuts to average unit prices aimed at boosting volume backfired, leading to disastrous margin outcomes despite higher sales volumes.
+3. **Internet Sales Margin Stagnation Due to Unchecked Price Drops Without Elasticity Analysis**
+Internet Sales decision-makers frequently lowered prices as soon as cost conditions improved, but without considering price elasticity or demand sensitivity, resulting in minimal margin improvement.
+4. **Strong Governance and Regulatory Oversight Are Essential**
+Embedding disciplined governance frameworks and regulatory checks is critical to enforce pricing strategies that balance growth ambitions with sustainable profitability and ethical standards across both sales channels.
+5. **High-level Highlights**
+- Reseller Sales: Experienced volume growth driven by product diversification but suffered margin collapse from poorly managed price reductions.
+- Internet Sales: Showed stable revenue growth and broader customer reach supported by digital analytics, but margins remained under pressure due to reactive pricing decisions.
+6. **Key Lowlights**
+- Reseller Sales: Margin volatility and erosion caused by inconsistent pricing governance and unsustainable price drops.
+- Internet Sales: Margin compression from rapid price reductions untempered by demand elasticity studies, eroding profitability.
+7. **Fabric + Power BI Enable Comprehensive, Actionable Insights**
+The integration transforms complex transactional data into strategic intelligence that highlights not only volume and revenue trends but reveals margin risks and governance gaps, driving balanced commercial decision-making.
+8. **Ethical, Data-Backed Strategy Supports Sustainable Growth**
+Actionable insights encourage aligning sales growth with strong ethical standards and robust governance, ensuring long-term value creation and risk management across reseller and internet sales ecosystems.
 
 ---
 
