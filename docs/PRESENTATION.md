@@ -150,93 +150,48 @@
 ---
 
 ## 🔍 Slide 9: Strategic Inferences
-- Promotions boost revenue but reduce margins; careful calibration needed  
-- Units per transaction show **resilience of reseller behavior**  
-- Enterprise-level tools (Fabric + Power BI) enable **data-driven, boardroom-ready insights**  
-- Demonstrates technical + business intelligence skills critical for recruiters  
+
+### Highlights
+
+- **Strong Volume Growth:** Total sales, order quantity, distinct customers, and transactions have increased significantly from 2010 to 2013 across core geographies.
+- **Increasing Customer Participation:** Ecommerce channels demonstrably grew customer engagement and transaction volumes.
+- **Accessory Cross-Selling Works:** Bundling accessories with bikes improves margins where upheld by focused campaigns.
+- **Margin Increases via Efficiency:** Some gross margin improvements from cost management and scaling after 2012.
+
+### Lowlights / Key Concerns
+
+- **Declining Average Sales Per Order:** Despite rising volume, average sales per transaction dropped by 15–25%, driven by shrinking unit prices primarily in US states like California, Oregon, and Washington, plus parts of France (e.g., Seine Saint Denis).
+- **Steep Unit Price Declines in Core Products:** Road Bikes and Mountain Bikes prices fell sharply (up to 60% decrease in key US markets), dragging revenue despite higher order counts.
+- **Product Mix Drift:** Increasing sales from lower-priced categories (clothing, accessories) lowers overall revenue per transaction.
+- **Transaction Counts Growing Across All Regions:** No evidence of declining transaction counts regionally; higher purchase frequency, but smaller baskets.
+- **Margin Pressure in Low-Price Segments:** Price erosion in clothing and accessories jeopardizes profitability of volume-focused growth.
 
 ---
 
-## 🌐 Slide 9B: Internet Customer Sales — Business Insights (FY2010–2013)
+## 🌐 Slide 9B: Internet Customer Sales — Boardroom & Regulator Insights (FY2010–2013)
 
-### 1️⃣ Overview
-The **Internet Sales** channel shows a compelling growth trajectory from FY2010–2013, revealing a deliberate strategic pivot from a *price-led* to a *volume-led* model.  
-This section interprets that transformation using 22 aggregated tables (Total Sales, Average Sales, Transaction Counts, Discounts, and Geographical/Product dimensions).
+### Pricing Governance & Margin Impact
 
----
+- **Uncontrolled Unit Price Reductions:** Unit prices dropped immediately and proportionally as average product costs fell, lacking any structured, data-driven pricing strategy.
+- **Missed Margin Expansion Opportunity:** Gross margins held nearly flat through 2010–2013 because price cuts negated cost savings instead of leveraging them for margin growth.
+- **Poor Governance & Oversight:** Decision-making showed no evidence of elasticity analysis, market positioning, or strategic price revision frameworks.
+- **Implications for Internet Sales Strategy:** Ecommerce growth is volume-led but margin-diluted, risking long-term profitability and brand value.
 
-### 2️⃣ Growth Composition Analysis
-- **Total Sales Amount:** ↑ ~40–50% (FY2010–2013)  
-- **Average Sales Amount:** ↓ 15–25% across geographies & products  
-- **Transaction Counts:** ↑ 55–65%  
+### Strategic Recommendations to Investors & Regulators
 
-➡️ **Interpretation:**  
-Growth was **volume-driven**, not price-driven.  
-Management consciously dropped average unit prices to accelerate market share acquisition through penetration and reach.
-
----
-
-### 3️⃣ Pricing & Margin Dynamics
-
-| Indicator | FY2010 | FY2013 | Δ | Insight |
-|------------|--------|--------|---|---------|
-| Total Sales | ↑ | ↑↑↑ | +40–50% | Volume-led expansion |
-| Avg Sales / Txn | ↓ | ↓↓ | –15–25% | Price dilution |
-| Transaction Count | ↑ | ↑↑↑ | +55–65% | Market expansion |
-| Discount / Sales Ratio | ~8% | ~12% | +4 pts | Higher promotional spend |
-
-**Key Takeaway:**  
-Internet Sales achieved growth by *buying volume*.  
-Discounting intensity and lower ticket values indicate a market-penetration strategy that traded short-term margin for customer base growth.
-
----
-
-### 4️⃣ Geographic & Product Portfolio Insights
-- **North America:** Smaller drop in average sale; brand strength protected pricing.  
-- **Europe & APAC:** Sharper declines (up to 30%); aggressive expansion through affordability.  
-- **Product mix:** Mid-tier SKUs discounted heavily; premium SKUs retained price stability → **“barbell portfolio”** pattern.
-
-➡️ **Interpretation:**  
-Revenue grew via diversification, but average yield fell.  
-Emerging markets and mid-tier products drove scale; mature markets anchored profitability.
-
----
-
-### 5️⃣ Strategic Implications
-
-| Theme | Evidence | Implication |
-|--------|-----------|-------------|
-| Volume-Led Expansion | Rising transactions, falling avg. sale | Market share up; margin pressure |
-| Price Elasticity by Region | Europe/APAC more sensitive | Requires localized pricing governance |
-| Discount Dependency | Rising discount ratio | Risk of sustained price erosion |
-| Product Mix Shift | Mid-tier expansion | Broader reach, thinner margins |
-| Margin Recovery Path | Flat avg. revenue per product | Efficiency or premiumization critical |
-
----
-
-### 6️⃣ Boardroom-Level Conclusions
-1. **Growth Quality:** Strong top-line expansion, but structurally margin-dilutive.  
-2. **Strategic Intent:** Deliberate penetration phase — volume prioritized over yield.  
-3. **Profitability Outlook:** Margin recovery now depends on:
-   - Selective **premiumization**  
-   - **Discount rationalization**  
-   - **Regional pricing discipline**
-4. **Future Levers:** Shift toward **yield optimization** — improve average sale value without losing scale.
-
----
-
-### 7️⃣ Executive Summary
-> Between FY2010–2013, Internet Sales delivered impressive top-line growth through a deliberate **volume-first strategy**.  
-> While this built market scale, it also created structural margin challenges.  
-> The next phase must balance **customer acquisition** with **sustainable yield management** — evolving from *growth-at-any-cost* to *profitable, price-disciplined expansion*.
+- **Reinstate Rigorous Pricing Discipline:** Implement data-driven price resets based on market demand elasticities and competitive benchmarks.
+- **Optimize Product and Pricing Mix:** Focus on premium SKUs and bundling to recover average sales and margin.
+- **Increase Transparency & Compliance:** Adopt board-approved pricing policies with comprehensive documentation for regulator and investor confidence.
+- **Balance Volume with Yield:** Sustain customer growth but prioritize average order value and margin recovery against discount-driven volume spikes.
+- **Advance Operational Scale & Efficiency:** To counterbalance rising transaction costs under fragmented purchasing patterns.
 
 ---
 
 ## 📌 Slide 10: Executive Takeaways
-1. Short-term revenue spikes can mask margin erosion.  
-2. Fabric + Power BI combination enables **high-impact storytelling** from transactional data.  
-3. Analysis confirms **pricing, discount, and volume strategies are tightly correlated** with profitability outcomes.  
-4. Shows ability to derive **actionable insights** from complex enterprise datasets.  
+1. Short-term revenue spikes often mask the erosion of profitability, raising important ethical and governance concerns. Both Reseller and Internet Sales channels must resist the temptation to chase volume and top-line growth at any cost, recognizing that unsustainable discounting or aggressive pricing to boost sales can undermine long-term margin health and stakeholder value.
+2. The Fabric + Power BI platform empowers transparent, data-driven storytelling—highlighting not just sales achievements but also underlying profitability metrics, encouraging responsible decision-making grounded in holistic financial insight.
+3. Our analysis underscores that pricing, discounting, and volume strategies are deeply interconnected with profitability outcomes, demanding disciplined governance to balance growth ambitions with margin protection. This balance is critical for sustaining ecosystem partnerships and preserving brand equity in reseller networks and direct customer channels alike.
+4. This approach demonstrates how actionable insights derived from complex, cross-channel data enable businesses to embed ethics and governance into commercial strategy—surfacing risks and opportunities that align growth with sustainable profitability.
 
 ---
 
@@ -269,5 +224,6 @@ Emerging markets and mid-tier products drove scale; mature markets anchored prof
 - Ready for **investor, boardroom, or consultant presentation**.  
 - Full Power BI dashboards and Fabric integration are **available for review**.  
 - Highlights ability to **translate enterprise data into strategic, actionable insights**.  
+
 
 
