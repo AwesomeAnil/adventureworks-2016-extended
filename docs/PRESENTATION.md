@@ -51,130 +51,101 @@
 
 ---
 
-## 🛠 Slide 3: Technical Architecture (MS Fabric + Power BI)
-**Built Using:**
-- **MS Fabric Data Lake:** Centralized, scalable repository for historical and transactional data.  
-- **Power BI:** Multi-layer analytics and visualization, including:
-  - Trend analysis (sales, units, discounts)  
-  - Profitability modeling (gross margins, cost analysis)  
-  - Scenario comparison (with/without discounts)  
-- **Key Benefits of Fabric:**
-  - Handles **large-scale datasets** efficiently  
-  - Integrates with **Power BI** for instant visualization  
-  - Enables **data-driven storytelling for executives and investors**
+## 🚀 Slide 5: Top Highlights & Lowlights
 
-**[Insert architecture diagram icon + arrows for data flow]**
+### 🚦 Portfolio Highlights
 
-```mermaid
-flowchart TD
-    %% Section: Source and SQL Server Setup
-    A1[📦 Source: AdventureWorks 2016.bak file] --> A2[🖥️ Install SQL Server + SSMS Docker Image Recommended]
-    A2 --> A3[➕ Restore .bak file to SQL Server<br>→ On-Prem Database Ready]
+- **Rapid Margin & Sales Recovery**  
+  Unit price discipline restored in 2014—margins and sales rebounded immediately.
 
-    %% Section: Power BI Gateway
-    A3 --> B1[🔌 Install Power BI Gateway]
-    
-    %% Section: Fabric Pipeline
-    B1 --> C1[☁️ MS Fabric Trial Capacity]
-    C1 --> C2[🆕 Create New Data Pipeline]
-    C2 --> C3[🔗 Use Gateway to connect to SQL Server On-Prem]
-    C3 --> C4[🏞️ Destination: AdventureWorks Fabric Lakehouse]
-    C4 --> C5[▶️ Run Pipeline to Import Selected Tables]
+- **Consistent Channel Scale**  
+  701 resellers provided broad market reach and distribution scale over a decade.
 
-    %% Section: Power BI Reporting
-    C5 --> D1[📊 Build Power BI Reports connecting to AdventureWorks Lakehouse]
+- **Flagship Category Power**  
+  Bikes remained the biggest driver of top-line and volume when portfolio and pricing were healthy.
 
-    %% Styling: Colors
-    classDef source fill:#fef3c7,stroke:#f59e0b,stroke-width:2px,white-space:normal;
-    classDef process fill:#dbeafe,stroke:#3b82f6,stroke-width:2px,white-space:normal;
-    classDef output fill:#dcfce7,stroke:#16a34a,stroke-width:2px,white-space:normal;
+- **Operational & Supply Chain Stability**  
+  Average product costs held steady even during market shocks.
 
-    class A1,A2,A3 source;
-    class B1,C1,C2,C3,C4,C5 process;
-    class D1 output;
-
-    %% Optional wider styling (if supported by Mermaid renderer)
-    style A1 width:250px
-    style A2 width:250px
-    style A3 width:250px
-    style B1 width:250px
-    style C1 width:250px
-    style C2 width:250px
-    style C3 width:250px
-    style C4 width:250px
-    style C5 width:250px
-    style D1 width:250px
-
-```
+- **Agility to Drive Volume**  
+  Strategy changes triggered rapid transaction and unit volume spikes, demonstrating latent market reach.
 
 ---
 
-## 📊 Slide 4: Key Measures & Methodology
-**Measures Analyzed (FY 2005–2014):**
-1. Avg Sales (w/ & w/o Discounts)  
-2. Avg Discounts (%)  
-3. Avg Product Costs  
-4. Avg Unit Prices  
-5. Avg Units per Transaction  
-6. Gross Margins  
-7. Total Sales  
-8. Total Units Sold  
+### ⚠️ Portfolio Lowlights
 
-**Methodology:**
-- Multi-table temporal analysis  
-- Scenario comparison (actual vs. hypothetical)  
-- Integrated insights on revenue, margin, pricing, and volume  
+- **Catastrophic Price Cuts (2010–2013)**  
+  Across-the-board price reductions with no cost offsets drove $470M+ in margin loss and almost broke the portfolio.
 
----
+- **Systemic Channel & Portfolio Risk**  
+  Reseller count flat for 10 years—no renewal, no innovation, high systemic fragility.
 
-## 🚀 Slide 5: Revenue & Sales Trends
-**Observation:**
-- Peak **Total Sales in 2010 (\$2.597B)** driven by **transaction/volume surge**, not per-unit increases.  
-- Units per transaction remained flat (~3.5 units).  
-- Post-2012: sales returned to baseline (~\$948M) as promotional campaigns ended.  
+- **Failed Price Elasticity Play**  
+  Demand did not rise after price collapse; volume spike was brief and unsustained.
 
-**Total Sales by Fiscal Year & Category]**
+- **No Buffer Product/Region**  
+  When Bikes and North America faltered, Accessories, Clothing, Components, Europe, and Pacific failed to compensate.
 
-![Total Sales](/images/Total_Sales.png)
+- **Stagnation in Innovation**  
+  No new product launches, no diversification, no channel expansion during crisis cycles.
+
+- **Governance & Oversight Gaps**  
+  No documented rationale for strategic price decisions; major risk for board, regulators, and shareholders.
 
 ---
 
-## 💵 Slide 6: Pricing & Discounts Impact
-- Discounts introduced 2010–2012 (3 → 13 %)  
-- Avg Unit Prices dipped slightly during discount period  
-- Gross Margins collapsed (negative for high-cost categories)  
-- Revenue spike achieved **at the expense of profitability**  
+## 💼 Slide 6: Strategic Boardroom & Regulator Brief
 
-**Avg Discounts**
+### 1. Pricing Governance and Margin Collapse
 
-![Average Discounts](/images/Avg_Discounts.png)
+- Unexplained, blanket price cuts (2010–2013) broke the historic link with cost structures, causing deep negative margins—investigation needed.
+- Volume initially spiked, but gains evaporated—proving price elasticity assumptions were flawed.
 
-**Unit Prices**
+### 2. Channel & Portfolio Health
 
-![Unit Prices](/images/Unit_Price.png)
+- Reseller numbers static, leaving the entire portfolio exposed. No capacity to recover from shocks or pivot to new segments or champions.
+- No secondary category/region hedging when primary segments crashed.
 
----
+### 3. Execution Breakdown
 
-## 📈 Slide 7: Units & Volume Analysis
-- **Avg Units per Transaction:** Stable (~3.5 units)  
-- **Total Units Sold:** 2010 spike driven by expanded reseller activity  
-- Revenue peak is **transaction-driven, not per-unit**  
-- Post-promotion normalization by 2014  
+- Price incentives failed to drive meaningful, lasting growth. Product and channel flexibility were never activated to offset loss cycles.
 
-**Total Units Sold by Fiscal Year & Category]**
+### 4. Governance & Strategic Risk
 
-![Total Units Sold](/images/Total_Units_Sold.png)
+- Overconcentration, weak defense, and absence of evidence-based planning.
+- Board and executive oversight failed to document price policy motive and cost-governance link.
 
 ---
 
-## 🏆 Slide 8: Profitability Insights
-- **Category Profitability Hierarchy:** Accessories > Clothing > Components > Bikes  
-- Temporary margin collapse 2010–2012 due to discounting strategy  
-- Recovery by 2014 aligns with **sustainable pricing and discount strategy**  
+## 📝 Slide 7: Board, Investor, Regulator Action Plan
 
-**Gross Margins by Category & Year**
+### Immediate Steps
 
-![Gross Margins](/images/GM.png)
+1. **Internal Investigation (2010–2013)**  
+   - Audit price reduction motives, approvals, and cost linkage.
+   - Prepare compliance documentation for regulator review.
+
+2. **Pricing & Cost Governance**  
+   - Demand future pricing be board-approved, data-driven, and linked to matching cost or demand signals.
+
+3. **Channel & Portfolio Renewal**  
+   - Incentivize fresh reseller and product diversification.  
+   - Experiment with new SKUs and specialist channels.
+
+4. **Operational Restructuring**  
+   - Audit, pivot, or divest loss-making zones; install early-warning systems for margin collapse.
+
+### Regulator & Shareholder Communication
+
+- Proactive disclosure and transparency about pricing logic, portfolio risk, and new oversight protocols.
+
+---
+
+## 🏆 Slide 8: Conclusion & Boardroom Takeaway
+
+> AdventureWorks faces structural risk from historic price mismanagement, channel stagnation, and lack of innovation. The board must launch a formal review, introduce governance reforms, and drive channel/product renewal. These actions will restore resilient, profitable growth—and confidence—in both investors and regulators.
+
+
 
 ---
 
@@ -298,4 +269,5 @@ Emerging markets and mid-tier products drove scale; mature markets anchored prof
 - Ready for **investor, boardroom, or consultant presentation**.  
 - Full Power BI dashboards and Fabric integration are **available for review**.  
 - Highlights ability to **translate enterprise data into strategic, actionable insights**.  
+
 
