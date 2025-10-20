@@ -186,6 +186,81 @@ flowchart TD
 
 ---
 
+## 🌐 Slide 9B: Internet Customer Sales — Business Insights (FY2010–2013)
+
+### 1️⃣ Overview
+The **Internet Sales** channel shows a compelling growth trajectory from FY2010–2013, revealing a deliberate strategic pivot from a *price-led* to a *volume-led* model.  
+This section interprets that transformation using 22 aggregated tables (Total Sales, Average Sales, Transaction Counts, Discounts, and Geographical/Product dimensions).
+
+---
+
+### 2️⃣ Growth Composition Analysis
+- **Total Sales Amount:** ↑ ~40–50% (FY2010–2013)  
+- **Average Sales Amount:** ↓ 15–25% across geographies & products  
+- **Transaction Counts:** ↑ 55–65%  
+
+➡️ **Interpretation:**  
+Growth was **volume-driven**, not price-driven.  
+Management consciously dropped average unit prices to accelerate market share acquisition through penetration and reach.
+
+---
+
+### 3️⃣ Pricing & Margin Dynamics
+
+| Indicator | FY2010 | FY2013 | Δ | Insight |
+|------------|--------|--------|---|---------|
+| Total Sales | ↑ | ↑↑↑ | +40–50% | Volume-led expansion |
+| Avg Sales / Txn | ↓ | ↓↓ | –15–25% | Price dilution |
+| Transaction Count | ↑ | ↑↑↑ | +55–65% | Market expansion |
+| Discount / Sales Ratio | ~8% | ~12% | +4 pts | Higher promotional spend |
+
+**Key Takeaway:**  
+Internet Sales achieved growth by *buying volume*.  
+Discounting intensity and lower ticket values indicate a market-penetration strategy that traded short-term margin for customer base growth.
+
+---
+
+### 4️⃣ Geographic & Product Portfolio Insights
+- **North America:** Smaller drop in average sale; brand strength protected pricing.  
+- **Europe & APAC:** Sharper declines (up to 30%); aggressive expansion through affordability.  
+- **Product mix:** Mid-tier SKUs discounted heavily; premium SKUs retained price stability → **“barbell portfolio”** pattern.
+
+➡️ **Interpretation:**  
+Revenue grew via diversification, but average yield fell.  
+Emerging markets and mid-tier products drove scale; mature markets anchored profitability.
+
+---
+
+### 5️⃣ Strategic Implications
+
+| Theme | Evidence | Implication |
+|--------|-----------|-------------|
+| Volume-Led Expansion | Rising transactions, falling avg. sale | Market share up; margin pressure |
+| Price Elasticity by Region | Europe/APAC more sensitive | Requires localized pricing governance |
+| Discount Dependency | Rising discount ratio | Risk of sustained price erosion |
+| Product Mix Shift | Mid-tier expansion | Broader reach, thinner margins |
+| Margin Recovery Path | Flat avg. revenue per product | Efficiency or premiumization critical |
+
+---
+
+### 6️⃣ Boardroom-Level Conclusions
+1. **Growth Quality:** Strong top-line expansion, but structurally margin-dilutive.  
+2. **Strategic Intent:** Deliberate penetration phase — volume prioritized over yield.  
+3. **Profitability Outlook:** Margin recovery now depends on:
+   - Selective **premiumization**  
+   - **Discount rationalization**  
+   - **Regional pricing discipline**
+4. **Future Levers:** Shift toward **yield optimization** — improve average sale value without losing scale.
+
+---
+
+### 7️⃣ Executive Summary
+> Between FY2010–2013, Internet Sales delivered impressive top-line growth through a deliberate **volume-first strategy**.  
+> While this built market scale, it also created structural margin challenges.  
+> The next phase must balance **customer acquisition** with **sustainable yield management** — evolving from *growth-at-any-cost* to *profitable, price-disciplined expansion*.
+
+---
+
 ## 📌 Slide 10: Executive Takeaways
 1. Short-term revenue spikes can mask margin erosion.  
 2. Fabric + Power BI combination enables **high-impact storytelling** from transactional data.  
@@ -223,3 +298,4 @@ flowchart TD
 - Ready for **investor, boardroom, or consultant presentation**.  
 - Full Power BI dashboards and Fabric integration are **available for review**.  
 - Highlights ability to **translate enterprise data into strategic, actionable insights**.  
+
