@@ -31,6 +31,48 @@ Local reproducibility is supported via `sample_data/`.
 
 ---
 
+## 2A . Operational Workflow 
+
+```mermaid
+flowchart TD
+    %% Left: SQL Setup
+    subgraph SQL["💾 SQL Setup"]
+        A[💾 Download AdventureWorks206.bak<br>from Microsoft Learn] --> B[💾 Restore backup<br>to local SQL Server]
+    end
+
+    %% Right: Fabric Setup
+    subgraph Fabric["🏗️ MS Fabric Setup"]
+        C[🏗️ Setup MS Fabric<br>trial capacity] --> D[🏗️ Create new Fabric workspace<br>for AdventureWorks]
+        D --> E[🏗️ Create new Lakehouse<br>in Fabric workspace]
+        E --> F[🏗️ Create new pipeline<br>to connect to local SQL<br>via Power BI Gateway]
+    end
+
+    %% Power BI Gateway (common step)
+    B -->|Data access| G[⚙️ Download, install & <br>configure<br>Power BI Gateway] -->|Connects SQL → Fabric| F
+
+    %% Data Import & Reporting (converging)
+    F -->|Validated tables| H[📥 Import tables into <br>Lakehouse & validate]
+    H -->|Processed data| I[📥 Download Power BI <br>Desktop & import tables <br>from OneLake]
+    I -->|Build semantic model| J[📊 Build semantic model, <br>measures, tables,<br>and reports]
+    J -->|Publish reports| K[🚀 Publish reports to<br>AdventureWorks Fabric <br>workspace]
+
+    %% Styling
+    classDef sqlBox fill:#cce5ff,stroke:#333,stroke-width:2px;
+    classDef gatewayBox fill:#d9ccff,stroke:#333,stroke-width:2px;
+    classDef fabricBox fill:#ffd9b3,stroke:#333,stroke-width:2px;
+    classDef importBox fill:#ccf2f2,stroke:#333,stroke-width:2px;
+    classDef reportBox fill:#d6f5d6,stroke:#333,stroke-width:2px;
+    classDef publishBox fill:#e6ffcc,stroke:#333,stroke-width:2px;
+
+    class A,B sqlBox;
+    class C,D,E,F fabricBox;
+    class G gatewayBox;
+    class H,I importBox;
+    class J reportBox;
+    class K publishBox;
+```
+---
+
 ## 🧹 3 · Data Preparation & Quality Checks
 1. **Ingest** dimension and fact tables tables from Fabric OneLake to Power BI Desktop.  
 2. **Validate columns:** `ResellerID`, `CustomerID`, `SalesAmount`, `UnitsSold`, `Year` on Power BI Desktop.  
