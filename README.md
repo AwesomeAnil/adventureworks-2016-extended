@@ -71,17 +71,42 @@ This project demonstrates:
 
 ```mermaid
 flowchart TD
-    A[📦 Source: AdventureWorks 2016 .bak file] --> B[🖥️ SQL Server + SSMS Docker Image Recommended]
-    B --> C[➕ Restore .bak file → On-Prem Database Ready]
-    C --> D[🔌 Power BI Gateway Installed]
-    D --> E[☁️ MS Fabric Trial Capacity]
-    E --> F[🆕 Create Data Pipeline]
-    F --> G[🔗 Gateway Connects to SQL Server On-Pmre]
-    G --> H[🏞️ Destination: AdventureWorks Fabric Lakehouse]
-    H --> I[▶️ Run Pipeline to Import Selected Tables into Fabric Lakehouse]
-    I --> J[📊 Power BI Reports Connected to Lakehouse]
-    classDef stage fill:#dbeafe,stroke:#3b82f6,stroke-width:2px,white-space:normal;
-    class A,B,C,D,E,F,G,H,I,J stage;
+    %% Left: SQL Setup
+    subgraph SQL["💾 SQL Setup"]
+        A[💾 Download AdventureWorks206.bak<br>from Microsoft Learn] --> B[💾 Restore backup<br>to local SQL Server]
+    end
+
+    %% Right: Fabric Setup
+    subgraph Fabric["🏗️ MS Fabric Setup"]
+        C[🏗️ Setup MS Fabric<br>trial capacity] --> D[🏗️ Create new Fabric workspace<br>for AdventureWorks]
+        D --> E[🏗️ Create new Lakehouse<br>in Fabric workspace]
+        E --> F[🏗️ Create new pipeline<br>to connect to local SQL<br>via Power BI Gateway]
+    end
+
+    %% Power BI Gateway (common step)
+    B -->|Data access| G[⚙️ Download, install & configure<br>Power BI Gateway] -->|Connects SQL → Fabric| F
+
+    %% Data Import & Reporting (converging)
+    F -->|Validated tables| H[📥 Import tables into Lakehouse<br>& validate]
+    H -->|Processed data| I[📥 Download Power BI Desktop<br>& import tables from OneLake]
+    I -->|Build semantic model| J[📊 Build semantic model,<br>measures,<br>tables,<br>and reports]
+    J -->|Publish reports| K[🚀 Publish reports to<br>AdventureWorks Fabric workspace]
+
+    %% Styling
+    classDef sqlBox fill:#cce5ff,stroke:#333,stroke-width:2px;
+    classDef gatewayBox fill:#d9ccff,stroke:#333,stroke-width:2px;
+    classDef fabricBox fill:#ffd9b3,stroke:#333,stroke-width:2px;
+    classDef importBox fill:#ccf2f2,stroke:#333,stroke-width:2px;
+    classDef reportBox fill:#d6f5d6,stroke:#333,stroke-width:2px;
+    classDef publishBox fill:#e6ffcc,stroke:#333,stroke-width:2px;
+
+    class A,B sqlBox;
+    class C,D,E,F fabricBox;
+    class G gatewayBox;
+    class H,I importBox;
+    class J reportBox;
+    class K publishBox;
+
 ```
 - Source: AdventureWorks .bak file
 - Pipeline: Fabric connects securely to SQL Server via Gateway
