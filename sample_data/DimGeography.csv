@@ -1,0 +1,101 @@
+﻿GeographyKey,City,StateProvinceCode,StateProvinceName,CountryRegionCode,EnglishCountryRegionName,SpanishCountryRegionName,FrenchCountryRegionName,PostalCode,SalesTerritoryKey,IpAddressLocator
+1,Alexandria,NSW,New South Wales,AU,Australia,Australia,Australie,2015,9,198.51.100.2
+2,Coffs Harbour,NSW,New South Wales,AU,Australia,Australia,Australie,2450,9,198.51.100.3
+3,Darlinghurst,NSW,New South Wales,AU,Australia,Australia,Australie,2010,9,198.51.100.4
+4,Goulburn,NSW,New South Wales,AU,Australia,Australia,Australie,2580,9,198.51.100.5
+5,Lane Cove,NSW,New South Wales,AU,Australia,Australia,Australie,1597,9,198.51.100.6
+6,Lavender Bay,NSW,New South Wales,AU,Australia,Australia,Australie,2060,9,198.51.100.7
+7,Malabar,NSW,New South Wales,AU,Australia,Australia,Australie,2036,9,198.51.100.8
+8,Matraville,NSW,New South Wales,AU,Australia,Australia,Australie,2036,9,198.51.100.9
+9,Milsons Point,NSW,New South Wales,AU,Australia,Australia,Australie,2061,9,198.51.100.10
+10,Newcastle,NSW,New South Wales,AU,Australia,Australia,Australie,2300,9,198.51.100.11
+11,North Ryde,NSW,New South Wales,AU,Australia,Australia,Australie,2113,9,198.51.100.12
+12,North Sydney,NSW,New South Wales,AU,Australia,Australia,Australie,2055,9,198.51.100.13
+13,Port Macquarie,NSW,New South Wales,AU,Australia,Australia,Australie,2444,9,198.51.100.14
+14,Rhodes,NSW,New South Wales,AU,Australia,Australia,Australie,2138,9,198.51.100.15
+15,Silverwater,NSW,New South Wales,AU,Australia,Australia,Australie,2264,9,198.51.100.16
+16,Springwood,NSW,New South Wales,AU,Australia,Australia,Australie,2777,9,198.51.100.17
+17,St. Leonards,NSW,New South Wales,AU,Australia,Australia,Australie,2065,9,198.51.100.18
+18,Sydney,NSW,New South Wales,AU,Australia,Australia,Australie,1002,9,198.51.100.19
+19,Wollongong,NSW,New South Wales,AU,Australia,Australia,Australie,2500,9,198.51.100.20
+20,Brisbane,QLD,Queensland,AU,Australia,Australia,Australie,4000,9,198.51.100.21
+21,Caloundra,QLD,Queensland,AU,Australia,Australia,Australie,4551,9,198.51.100.22
+22,East Brisbane,QLD,Queensland,AU,Australia,Australia,Australie,4169,9,198.51.100.23
+23,Gold Coast,QLD,Queensland,AU,Australia,Australia,Australie,4217,9,198.51.100.24
+24,Hawthorne,QLD,Queensland,AU,Australia,Australia,Australie,4171,9,198.51.100.25
+25,Hervey Bay,QLD,Queensland,AU,Australia,Australia,Australie,4655,9,198.51.100.26
+26,Rockhampton,QLD,Queensland,AU,Australia,Australia,Australie,4700,9,198.51.100.27
+27,Townsville,QLD,Queensland,AU,Australia,Australia,Australie,4810,9,198.51.100.28
+28,Cloverdale,SA,South Australia,AU,Australia,Australia,Australie,6105,9,198.51.100.29
+29,Findon,SA,South Australia,AU,Australia,Australia,Australie,5023,9,198.51.100.30
+30,Perth,SA,South Australia,AU,Australia,Australia,Australie,6006,9,198.51.100.31
+31,Hobart,TAS,Tasmania,AU,Australia,Australia,Australie,7001,9,198.51.100.32
+32,Bendigo,VIC,Victoria,AU,Australia,Australia,Australie,3550,9,198.51.100.33
+33,Cranbourne,VIC,Victoria,AU,Australia,Australia,Australie,3977,9,198.51.100.34
+34,Geelong,VIC,Victoria,AU,Australia,Australia,Australie,3220,9,198.51.100.35
+35,Melbourne,VIC,Victoria,AU,Australia,Australia,Australie,3000,9,198.51.100.36
+36,Melton,VIC,Victoria,AU,Australia,Australia,Australie,3337,9,198.51.100.37
+37,Seaford,VIC,Victoria,AU,Australia,Australia,Australie,3198,9,198.51.100.38
+38,South Melbourne,VIC,Victoria,AU,Australia,Australia,Australie,3205,9,198.51.100.39
+39,Sunbury,VIC,Victoria,AU,Australia,Australia,Australie,3429,9,198.51.100.40
+40,Warrnambool,VIC,Victoria,AU,Australia,Australia,Australie,3280,9,198.51.100.41
+192,Paris,75,Seine (Paris),FR,France,Francia,France,75002,7,198.51.100.193
+193,Paris,75,Seine (Paris),FR,France,Francia,France,75003,7,198.51.100.194
+194,Paris,75,Seine (Paris),FR,France,Francia,France,75005,7,198.51.100.195
+195,Paris,75,Seine (Paris),FR,France,Francia,France,75006,7,198.51.100.196
+196,Paris,75,Seine (Paris),FR,France,Francia,France,75007,7,198.51.100.197
+197,Paris,75,Seine (Paris),FR,France,Francia,France,75008,7,198.51.100.198
+198,Paris,75,Seine (Paris),FR,France,Francia,France,75009,7,198.51.100.199
+199,Paris,75,Seine (Paris),FR,France,Francia,France,75010,7,198.51.100.200
+200,Paris,75,Seine (Paris),FR,France,Francia,France,75012,7,198.51.100.201
+201,Paris,75,Seine (Paris),FR,France,Francia,France,75013,7,198.51.100.202
+202,Paris,75,Seine (Paris),FR,France,Francia,France,75016,7,198.51.100.203
+203,Paris,75,Seine (Paris),FR,France,Francia,France,75017,7,198.51.100.204
+204,Paris,75,Seine (Paris),FR,France,Francia,France,75019,7,198.51.100.205
+179,Saint Ouen,17,Charente-Maritime,FR,France,Francia,France,17490,7,198.51.100.180
+180,Colomiers,31,Garonne (Haute),FR,France,Francia,France,31770,7,198.51.100.181
+181,Aujan Mournede,32,Gers,FR,France,Francia,France,32300,7,198.51.100.182
+182,Saint Ouen,41,Loir et Cher,FR,France,Francia,France,41100,7,198.51.100.183
+183,Orleans,45,Loiret,FR,France,Francia,France,45000,7,198.51.100.184
+184,Metz,57,Moselle,FR,France,Francia,France,57000,7,198.51.100.185
+185,Croix,59,Nord,FR,France,Francia,France,59170,7,198.51.100.186
+186,Dunkerque,59,Nord,FR,France,Francia,France,59140,7,198.51.100.187
+187,Lille,59,Nord,FR,France,Francia,France,59000,7,198.51.100.188
+188,Roncq,59,Nord,FR,France,Francia,France,59223,7,198.51.100.189
+189,Roubaix,59,Nord,FR,France,Francia,France,59100,7,198.51.100.190
+190,Villeneuve-d'Ascq,59,Nord,FR,France,Francia,France,59491,7,198.51.100.191
+191,Boulogne-sur-Mer,62,Pas de Calais,FR,France,Francia,France,62200,7,198.51.100.192
+205,Lieusaint,77,Seine et Marne,FR,France,Francia,France,77127,7,198.51.100.206
+206,Roissy en Brie,77,Seine et Marne,FR,France,Francia,France,77680,7,198.51.100.207
+207,Chatou,78,Yveline,FR,France,Francia,France,78400,7,198.51.100.208
+208,Saint Germain en Laye,78,Yveline,FR,France,Francia,France,78100,7,198.51.100.209
+209,Versailles,78,Yveline,FR,France,Francia,France,78000,7,198.51.100.210
+210,Saint Ouen,80,Somme,FR,France,Francia,France,80610,7,198.51.100.211
+211,Les Ulis,91,Essonne,FR,France,Francia,France,91940,7,198.51.100.212
+212,Morangis,91,Essonne,FR,France,Francia,France,91420,7,198.51.100.213
+213,Verrieres Le Buisson,91,Essonne,FR,France,Francia,France,91370,7,198.51.100.214
+214,Boulogne-Billancourt,92,Hauts de Seine,FR,France,Francia,France,92100,7,198.51.100.215
+215,Colombes,92,Hauts de Seine,FR,France,Francia,France,92700,7,198.51.100.216
+216,Courbevoie,92,Hauts de Seine,FR,France,Francia,France,92400,7,198.51.100.217
+217,Paris La Defense,92,Hauts de Seine,FR,France,Francia,France,92081,7,198.51.100.218
+218,Sèvres,92,Hauts de Seine,FR,France,Francia,France,92310,7,198.51.100.219
+219,Suresnes,92,Hauts de Seine,FR,France,Francia,France,92150,7,198.51.100.220
+220,Bobigny,93,Seine Saint Denis,FR,France,Francia,France,93000,7,198.51.100.221
+221,Drancy,93,Seine Saint Denis,FR,France,Francia,France,93700,7,198.51.100.222
+222,Pantin,93,Seine Saint Denis,FR,France,Francia,France,93500,7,198.51.100.223
+223,Saint-Denis,93,Seine Saint Denis,FR,France,Francia,France,93400,7,198.51.100.224
+224,Tremblay-en-France,93,Seine Saint Denis,FR,France,Francia,France,93290,7,198.51.100.225
+225,Orly,94,Val de Marne,FR,France,Francia,France,94310,7,198.51.100.226
+226,Cergy,95,Val d'Oise,FR,France,Francia,France,95000,7,198.51.100.227
+227,Abingdon,ENG,England,GB,United Kingdom,Reino Unido,Royaume-Uni,OX14 4SE,10,198.51.100.228
+228,Basingstoke Hants,ENG,England,GB,United Kingdom,Reino Unido,Royaume-Uni,RG24 8PL,10,198.51.100.229
+229,Berks,ENG,England,GB,United Kingdom,Reino Unido,Royaume-Uni,SL4 1RH,10,198.51.100.230
+230,Berkshire,ENG,England,GB,United Kingdom,Reino Unido,Royaume-Uni,RG11 5TP,10,198.51.100.231
+231,Billericay,ENG,England,GB,United Kingdom,Reino Unido,Royaume-Uni,CM11,10,198.51.100.232
+232,Birmingham,ENG,England,GB,United Kingdom,Reino Unido,Royaume-Uni,B29 6SL,10,198.51.100.233
+233,Bracknell,ENG,England,GB,United Kingdom,Reino Unido,Royaume-Uni,RG12 8TB,10,198.51.100.234
+234,Bury,ENG,England,GB,United Kingdom,Reino Unido,Royaume-Uni,PE17,10,198.51.100.235
+235,Cambridge,ENG,England,GB,United Kingdom,Reino Unido,Royaume-Uni,CB4 4BZ,10,198.51.100.236
+236,Cheltenham,ENG,England,GB,United Kingdom,Reino Unido,Royaume-Uni,GL50,10,198.51.100.237
+237,Esher-Molesey,ENG,England,GB,United Kingdom,Reino Unido,Royaume-Uni,EM15,10,198.51.100.238
+238,Gateshead,ENG,England,GB,United Kingdom,Reino Unido,Royaume-Uni,GA10,10,198.51.100.239
