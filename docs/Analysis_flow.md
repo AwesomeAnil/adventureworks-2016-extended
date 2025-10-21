@@ -20,21 +20,23 @@ Developed on **Microsoft Fabric (trial capacity)** using:
 
 | Component | Purpose |
 |------------|----------|
+| **SQL Server** | local environment to restore AdventureWorks.bak to SQL Server table |
 | **OneLake** | Centralized repository for raw & processed sales data |
 | **Delta Lake** | ACID-compliant storage for consistent tables |
 | **Fabric Notebooks** | Interactive environment for EDA, analytics, and scenario modeling |
 | **Data Pipelines** | Automated ingestion + transformation for reproducibility |
+| **Power BI** | for building semantic models and reporting |
 
 Local reproducibility is supported via `sample_data/`.
 
 ---
 
 ## 🧹 3 · Data Preparation & Quality Checks
-1. **Ingest** raw tables (`Reseller_Sales.csv`, `Internet_Sales.csv`).  
-2. **Validate columns:** `ResellerID`, `CustomerID`, `SalesAmount`, `UnitsSold`, `Year`.  
+1. **Ingest** dimension and fact tables tables from Fabric OneLake to Power BI Desktop.  
+2. **Validate columns:** `ResellerID`, `CustomerID`, `SalesAmount`, `UnitsSold`, `Year` on Power BI Desktop.  
 3. **Filter:** remove duplicates, missing IDs, or zero/negative sales.  
 4. **Derive metrics:** unique reseller/customer counts, volume growth, average sales per partner/customer.  
-5. **Persist:** Delta Lake tables or CSV snapshots for local testing.  
+5. **Build semantic model:** Build semantic model and reports on Power BI and publish to AdventureWorks Fabric workspace trial capacity .  
 
 **Business rationale:** ensures **clean, auditable inputs** and **reliable concentration and growth metrics**.
 
@@ -125,11 +127,8 @@ Local reproducibility is supported via `sample_data/`.
 ---
 
 ### 🧠 Next Steps
-1. Upload final visuals to `images/`.  
-2. Push summary tables to `reports/`.  
-3. Link from README and `docs/presentation.md`.  
-4. Tag `v1.0` release once all artifacts are in place.
+
 
 ---
 
-**License:** MIT | **Maintainer:** Anil · [`github.com/<yourusername>`](https://github.com/<yourusername>)
+**License:** MIT | **Maintainer:** Anil · [`github.com/AwesomeAnil`](https://github.com/AwesomeAnil)
