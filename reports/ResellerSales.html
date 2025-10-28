@@ -1,16 +1,50 @@
-<!-- dashboards/resellersales.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Reseller Sales</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AdventureWorks Power BI Dashboard</title>
   <style>
-    body { margin: 0; background: #f5f5f5; font-family: Arial, sans-serif; text-align: center; }
-    iframe { width: 100%; height: 95vh; border: none; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fafafa;
+      text-align: center;
+    }
+    header {
+      background: #BDDAB0;
+      color: #111111;
+      padding: 1rem;
+    }
+    iframe {
+      width: 95%;
+      height: 800px;
+      border: none;
+      margin: 20px auto;
+      display: block;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+    footer {
+      color: #555;
+      font-size: 14px;
+      margin-bottom: 1rem;
+    }
   </style>
 </head>
 <body>
-  <h2>Reseller Sales Performance</h2>
-  <iframe src="https://app.powerbi.com/view?r=eyJrIjoiZWYxMDEzNmItYzA4Ni00MjZlLWIzNjctNjgxNGE4NGI4YWNiIiwidCI6ImY2NTRlNzkxLWY4NTgtNDZkNi05MWE5LTE5YzlmZTA4YTc0ZiJ9"></iframe>
+  <header>
+    <h1>AdventureWorks Reseller Sales Report (2016 Extended Edition)</h1>
+  </header>
+
+  <iframe title="Reseller Sales Power BI Report"
+          src="https://app.powerbi.com/view?r=eyJrIjoiZWYxMDEzNmItYzA4Ni00MjZlLWIzNjctNjgxNGE4NGI4YWNiIiwidCI6ImY2NTRlNzkxLWY4NTgtNDZkNi05MWE5LTE5YzlmZTA4YTc0ZiJ9
+"
+          allowfullscreen="true"></iframe>
+
+  <footer>
+    <p>Built by <a href="https://github.com/awesomeanil" target="_blank">Anil Jacob</a> | Powered by Power BI + GitHub Pages</p>
+  </footer>
 </body>
 </html>
