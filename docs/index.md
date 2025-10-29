@@ -40,26 +40,26 @@ Below are embedded, fully interactive Power BI reports hosted as `.html` files o
 
 ### 1️⃣ Executive Performance Dashboard
 
-[🔗 View Performance Report](https://awesomeanil.github.io/adventureworks-2016-extended/reports/Performance.html)
+[🔗 View Performance Report](https://awesomeanil.github.io/adventureworks-2016-extended/Performance.html)
 
-[![Performance Report](https://img.shields.io/badge/View-Performance%20Report-darkblue)](https://awesomeanil.github.io/adventureworks-2016-extended/reports/Performance.html)
+[![Performance Report](https://img.shields.io/badge/View-Performance%20Report-darkblue)](https://awesomeanil.github.io/adventureworks-2016-extended/Performance.html)
 
 
 ---
 
 ### 2️⃣ 🏪 Reseller Sales Dashboard
 
-[🔗 View Resller Sales Report](https://awesomeanil.github.io/adventureworks-2016-extended/reports/ResellerSales.html)
+[🔗 View Resller Sales Report](https://awesomeanil.github.io/adventureworks-2016-extended/ResellerSales.html)
 
-[![Reseller Report](https://img.shields.io/badge/View-Reseller%20Report-green)](https://awesomeanil.github.io/adventureworks-2016-extended/reports/ResellerSales.html)
+[![Reseller Report](https://img.shields.io/badge/View-Reseller%20Report-green)](https://awesomeanil.github.io/adventureworks-2016-extended/ResellerSales.html)
 
 ---
 
 ### 3️⃣ 🌐 Intenet Customer Sales Dashboard
 
-[🔗 View Internet Sales Report](https://awesomeanil.github.io/adventureworks-2016-extended/reports/InternetSales.html)
+[🔗 View Internet Sales Report](https://awesomeanil.github.io/adventureworks-2016-extended/InternetSales.html)
 
-[![Internet Report](https://img.shields.io/badge/View-Internet%20Report-blue)](https://awesomeanil.github.io/adventureworks-2016-extended/reports/InternetSales.html)
+[![Internet Report](https://img.shields.io/badge/View-Internet%20Report-blue)](https://awesomeanil.github.io/adventureworks-2016-extended/InternetSales.html)
 
 
 ---
