@@ -51,7 +51,7 @@ This **Extended Edition** has 10 years Reseller data from 2005 - 2014, transform
 Below are embedded, fully interactive Power BI reports hosted as `.html` files on GitHub Pages.  
 > 💡 *Best viewed in full-screen mode for high-resolution visuals.*
 
-### 1️⃣ Executive Performance Dashboard
+### 1️⃣ 📈 Executive Performance Dashboard
 
 [🔗 View Performance Report](https://awesomeanil.github.io/adventureworks-2016-extended/Performance.html)
 
@@ -68,7 +68,7 @@ Below are embedded, fully interactive Power BI reports hosted as `.html` files o
 
 ---
 
-### 3️⃣ 🌐 Intenet Customer Sales Dashboard
+### 3️⃣ 🌐 Internet Customer Sales Dashboard
 
 [🔗 View Internet Sales Report](https://awesomeanil.github.io/adventureworks-2016-extended/InternetSales.html)
 
@@ -166,8 +166,8 @@ http://localhost:8888
 
 **Anil Jacob**  
 *Data Strategy • BI Governance • Analytics Leadership*  
-🌐 [GitHub Profile](https://github.com/AwesomeAnil)  
-💼 [LinkedIn Profile](https://linkedin.com/in/anil-jacobs)  
+🌐 [GitHub](https://github.com/AwesomeAnil)  
+💼 [Reach me on LinkedIn](https://linkedin.com/in/anil-jacobs)  
 
 ---
 
