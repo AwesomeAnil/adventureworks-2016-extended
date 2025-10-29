@@ -159,10 +159,3 @@ http://localhost:8888
 
 > “Data only matters when it drives better business outcomes.”  
 > — *AdventureWorks Extended, by Anil Jacob*
-
-
-
-
-
-# Open Power BI report files (.pbix)
-dashboards/
