@@ -1,55 +1,20 @@
-# Site basics
-title: "AdventureWorks — Power BI Reports"
-email: ""
-description: "A curated Power BI landing page — interactive reports, demos and documentation."
-baseurl: ""           # leave empty for user.github.io/repo or set "/repo-name" for project sites
-url: "https://username.github.io"  # replace with your GitHub Pages URL
-
-# Theme and plugins
-theme: jekyll-theme-modernist
+title: "AdventureWorks on Fabric & Power BU"
+description: "Interactive Power BI reports built on the AdventureWorks 2016 Extended dataset."
+theme: jekyll-theme-merlot
 markdown: kramdown
-plugins:
-  - jekyll-seo-tag
-  - jekyll-feed
+show_downloads: false
 
-# Navigation (simple starter nav — edit to match your index sections)
-nav:
-  - text: Home
-    url: /
-  - text: Reports
-    url: /reports/
-  - text: Docs
-    url: /docs/
-  - text: Contact
-    url: /contact/
+# Optional metadata
+author: "Anil Jacob"
+github:
+  is_project_page: true
+  owner_url: "https://github.com/AwesomeAnil"
+  repository_url: "https://github.com/AwesomeAnil/adventureworks-2016-extended"
 
-# Include custom CSS
-include:
-  - assets/css/custom.css
-
-# Social / seo
-twitter: AwesomeAnil
-github: AwesomeAnil
-lang: en-GB
-
-# Optional: show last modified date (if theme supports)
-show_last_modified_at: true
-
-# Build settings
+# Exclude unnecessary files from site build
 exclude:
   - README.md
   - LICENSE
+  - Gemfile
+  - Gemfile.lock
 
-# Defaults for pages (helps consistent look)
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-      permalink: "/:path/"
-
-# Theme custom variables (used by the CSS below if present)
-accent_color: "#F2C811"    # Power BI yellow
-accent_dark: "#C8A100"
-brand_blue: "#005A9C"
