@@ -1,0 +1,114 @@
+:root{
+  --accent: #F2C811;      /* Power BI warm yellow */
+  --accent-dark: #C8A100;
+  --brand-blue: #005A9C;  /* Microsoft-ish blue */
+  --muted: #6b7280;
+  --bg: #ffffff;
+  --card-bg: #ffffff;
+  --radius: 12px;
+  --shadow: 0 6px 20px rgba(17,24,39,0.06);
+  --glass: rgba(255,255,255,0.85);
+}
+
+/* Basic page */
+body {
+  background: linear-gradient(180deg, #fbfdff 0%, #ffffff 100%);
+  color: #111827;
+  font-family: Inter, "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial;
+  line-height: 1.6;
+}
+
+/* Header / hero */
+.header-hero {
+  background: linear-gradient(90deg, rgba(0,90,156,0.03), rgba(242,200,17,0.02));
+  border-radius: var(--radius);
+  padding: 2rem;
+  box-shadow: var(--shadow);
+  margin-bottom: 1.25rem;
+}
+.header-hero h1 {
+  font-size: 2.25rem;
+  margin: 0 0 0.25rem;
+  color: var(--brand-blue);
+}
+.header-hero p.lead {
+  margin: 0;
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+/* Cards for report links */
+.card {
+  background: var(--card-bg);
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: var(--shadow);
+  border: 1px solid rgba(16,24,40,0.04);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+.card:hover{
+  transform: translateY(-6px);
+  box-shadow: 0 14px 30px rgba(16,24,40,0.08);
+}
+.card .title {
+  font-weight: 600;
+  color: #0f172a;
+  margin-bottom: .35rem;
+}
+.card .meta {
+  color: var(--muted);
+  font-size: .9rem;
+}
+
+/* Accent button */
+.btn-accent {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  background: linear-gradient(180deg, var(--accent) 0%, var(--accent-dark) 100%);
+  color: #0b1220;
+  padding: .55rem .9rem;
+  border-radius: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 6px 18px rgba(200,169,0,0.12);
+  border: none;
+}
+.btn-outline {
+  display: inline-block;
+  padding: .45rem .75rem;
+  border-radius: 10px;
+  border: 1px solid rgba(0,90,156,0.12);
+  color: var(--brand-blue);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Responsive grid for report tiles */
+.report-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+/* Simple footer */
+.site-footer {
+  margin-top: 2rem;
+  padding: 1.2rem 0;
+  color: var(--muted);
+  border-top: 1px dashed rgba(16,24,40,0.04);
+  font-size: .9rem;
+  text-align: center;
+}
+
+/* Small helpers */
+.kv {
+  font-weight: 600;
+  color: var(--brand-blue);
+}
+.logo {
+  height: 48px;
+  width: auto;
+  margin-right: .5rem;
+}
