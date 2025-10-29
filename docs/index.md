@@ -3,6 +3,18 @@
 # AdventureWorks 2016 — Extended  
 **Transforming operational history into insight-driven business recovery**
 
+[![MS Fabric](https://img.shields.io/badge/MS%20Fabric-Cloud-blue?logo=microsoft)](https://learn.microsoft.com/en-us/fabric/get-started)
+[![Power BI](https://img.shields.io/badge/Power%20BI-Business%20Analytics-yellow?logo=power-bi)](https://powerbi.microsoft.com/)
+[![Data Engineering](https://img.shields.io/badge/Data%20Engineering-ETL-orange?logo=apache-airflow)](https://en.wikipedia.org/wiki/Data_engineering)
+[![SQL Server](https://img.shields.io/badge/SQL%20Server-Database-red?logo=microsoftsqlserver)](https://www.microsoft.com/en-us/sql-server)
+[![Power BI Gateway](https://img.shields.io/badge/Power%20BI%20Gateway-Connect-green?logo=power-bi)](https://learn.microsoft.com/en-us/data-integration/gateway/service-gateway-install)
+[![Data Pipelines](https://img.shields.io/badge/Data%20Pipelines-Fabric-blueviolet?logo=apache-airflow)](https://learn.microsoft.com/en-us/fabric/data-pipelines)
+[![Fabric Lakehouse](https://img.shields.io/badge/Fabric%20Lakehouse-Data%20Lake-lightblue?logo=databricks)](https://learn.microsoft.com/en-us/fabric/overview)
+[![Historical Analysis](https://img.shields.io/badge/Historical%20Analysis-Time%20Series-blue?logo=chart.js)](https://en.wikipedia.org/wiki/Time_series)
+[![Report Writing](https://img.shields.io/badge/Report%20Writing-Documentation-green?logo=read-the-docs)](https://en.wikipedia.org/wiki/Technical_writing)
+[![Business Intelligence](https://img.shields.io/badge/Business%20Intelligence-BI-yellow?logo=tableau)](https://en.wikipedia.org/wiki/Business_intelligence)
+[![Analytics Development](https://img.shields.io/badge/Analytics%20Development-Data%20Insights-orange?logo=apache-superset)](https://en.wikipedia.org/wiki/Data_analysis)
+
 > *An end-to-end, reproducible analytics experience built on Microsoft Fabric & Power BI.*
 
 ---
@@ -30,6 +42,7 @@ This **Extended Edition** has 10 years Reseller data from 2005 - 2014, transform
 
 ## 🧭 System Architecture
 
+![Architecture](Architecture.png)
 
 ---
 
@@ -70,7 +83,7 @@ Below are embedded, fully interactive Power BI reports hosted as `.html` files o
 |------|----------|
 | `docs/` | Full documentation: architecture, governance, and playbooks |
 | `power bi/` | pdf of Power BI reports |
-| `reports/` | html of Power BI embedded reports |
+| `reports/` | Internet Sales, Reseller Sales CSV's |
 | `images/` | for images and screenshots |
 | `sample_data/` | Sample datasets and dictionaries (synthesized or masked) |
 
@@ -93,7 +106,6 @@ Below are embedded, fully interactive Power BI reports hosted as `.html` files o
 - **Delta-style parquet tables** for data reproducibility  
 - **Semantic model design** using dimensional schemas and DAX measures  
 - **Interactive dashboards** tailored for storytelling and decision velocity  
-- **Data governance** documented within `/docs/Architecture.md` and `/docs/Runbook.md`
 
 ---
 
@@ -121,10 +133,12 @@ http://localhost:8888
 
 | Document | Description |
 |-----------|--------------|
-| [Architecture.md](Architecture.md) | End-to-end system overview |
-| [Runbook.md](Runbook.md) | Step-by-step setup and reproducibility guide |
-| [Playbooks/](Playbooks/) | Business remediation playbooks |
-| [DataDictionary.md](DataDictionary.md) | Schema and field-level metadata |
+| [Analysis_flow](Analysis_flow.md) | End-to-end system overview and workflows |
+| [EXEC_1PAGER](EXEC_1PAGER.md) | EXEC 1 Page Summary |
+| [PRESENTATION](PRESENTATION.md) | Board-room ready Presentation |
+| [Contributing](Contributing.md) | Contributing guidelines |
+| [Environment](Environment.md) | Setting up your environment |
+| [Configuration](Configuration.md) | Configurations |
 
 
 ---
