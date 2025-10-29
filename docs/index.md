@@ -30,11 +30,6 @@ This **Extended Edition** has 10 years Reseller data from 2005 - 2014, transform
 
 ## 🧭 System Architecture
 
-<p align="center">
-  <img src="Workflow.png" alt="AdventureWorks Extended Architecture Diagram" width="85%">
-  <br><sub>Figure: End-to-end AdventureWorks Extended architecture.</sub>
-</p>
-
 
 ---
 
@@ -43,42 +38,29 @@ This **Extended Edition** has 10 years Reseller data from 2005 - 2014, transform
 Below are embedded, fully interactive Power BI reports hosted as `.html` files on GitHub Pages.  
 > 💡 *Best viewed in full-screen mode for high-resolution visuals.*
 
-### 1️⃣ Executive Overview Dashboard
-<iframe 
-  src="https://awesomeanil.github.io/adventureworks-2016-extended/reports/Performance.html" 
-  width="100%" 
-  height="750px" 
-  frameborder="0" 
-  allowfullscreen>
-</iframe>
+### 1️⃣ Executive Performance Dashboard
 
-<sub>[🔗 Open Full Screen](https://awesomeanil.github.io/adventureworks-2016-extended/reports/Performance.html)</sub>
+[🔗 View Performance Report](https://awesomeanil.github.io/adventureworks-2016-extended/reports/Performance.html)
+
+[![Performance Report](https://img.shields.io/badge/View-Performance%20Report-darkblue)](https://awesomeanil.github.io/adventureworks-2016-extended/reports/Performance.html)
+
 
 ---
 
-### 2️⃣ Reseller Sales Dashboard
-<iframe 
-  src="https://awesomeanil.github.io/adventureworks-2016-extended/reports/ResellerSales.html" 
-  width="100%" 
-  height="750px" 
-  frameborder="0" 
-  allowfullscreen>
-</iframe>
+### 2️⃣ 🏪 Reseller Sales Dashboard
 
-<sub>[🔗 Open Full Screen](https://awesomeanil.github.io/adventureworks-2016-extended/reports/ResellerSales.html)</sub>
+[🔗 View Resller Sales Report](https://awesomeanil.github.io/adventureworks-2016-extended/reports/ResellerSales.html)
+
+[![Reseller Report](https://img.shields.io/badge/View-Reseller%20Report-green)](https://awesomeanil.github.io/adventureworks-2016-extended/reports/ResellerSales.html)
 
 ---
 
-### 3️⃣ Intenet Customer Sales Dashboard
-<iframe 
-  src="https://awesomeanil.github.io/adventureworks-2016-extended/reports/InternetSales.html" 
-  width="100%" 
-  height="750px" 
-  frameborder="0" 
-  allowfullscreen>
-</iframe>
+### 3️⃣ 🌐 Intenet Customer Sales Dashboard
 
-<sub>[🔗 Open Full Screen](https://awesomeanil.github.io/adventureworks-2016-extended/reports/InternetSales.html)</sub>
+[🔗 View Internet Sales Report](https://awesomeanil.github.io/adventureworks-2016-extended/reports/InternetSales.html)
+
+[![Internet Report](https://img.shields.io/badge/View-Internet%20Report-blue)](https://awesomeanil.github.io/adventureworks-2016-extended/reports/InternetSales.html)
+
 
 ---
 
@@ -87,10 +69,10 @@ Below are embedded, fully interactive Power BI reports hosted as `.html` files o
 | Path | Purpose |
 |------|----------|
 | `docs/` | Full documentation: architecture, governance, and playbooks |
-| `notebooks/` | Reproducible analytics & transformation notebooks |
-| `dashboards/` | Power BI `.pbix` files and report definitions |
-| `scripts/` | ETL, bootstrap, and reproducibility utilities |
-| `data/` | Sample datasets and dictionaries (synthesized or masked) |
+| `power bi/` | pdf of Power BI reports |
+| `reports/` | html of Power BI embedded reports |
+| `images/` | for images and screenshots |
+| `sample_data/` | Sample datasets and dictionaries (synthesized or masked) |
 
 ---
 
