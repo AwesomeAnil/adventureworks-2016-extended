@@ -1,0 +1,55 @@
+# Site basics
+title: "AdventureWorks — Power BI Reports"
+email: ""
+description: "A curated Power BI landing page — interactive reports, demos and documentation."
+baseurl: ""           # leave empty for user.github.io/repo or set "/repo-name" for project sites
+url: "https://username.github.io"  # replace with your GitHub Pages URL
+
+# Theme and plugins
+theme: jekyll-theme-modernist
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+# Navigation (simple starter nav — edit to match your index sections)
+nav:
+  - text: Home
+    url: /
+  - text: Reports
+    url: /reports/
+  - text: Docs
+    url: /docs/
+  - text: Contact
+    url: /contact/
+
+# Include custom CSS
+include:
+  - assets/css/custom.css
+
+# Social / seo
+twitter: AwesomeAnil
+github: AwesomeAnil
+lang: en-GB
+
+# Optional: show last modified date (if theme supports)
+show_last_modified_at: true
+
+# Build settings
+exclude:
+  - README.md
+  - LICENSE
+
+# Defaults for pages (helps consistent look)
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      permalink: "/:path/"
+
+# Theme custom variables (used by the CSS below if present)
+accent_color: "#F2C811"    # Power BI yellow
+accent_dark: "#C8A100"
+brand_blue: "#005A9C"
