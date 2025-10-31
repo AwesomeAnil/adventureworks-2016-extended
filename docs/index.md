@@ -52,14 +52,10 @@ Below are embedded, fully interactive Power BI reports hosted as `.html` files o
 
 ### 1️⃣ 📈 Executive Performance Dashboard
 
-[🔗 View Performance Report](https://awesomeanil.github.io/adventureworks-2016-extended/Performance.html)
+[🔗 View Performance Report (New tab)](https://awesomeanil.github.io/adventureworks-2016-extended/Performance.html)
 
-[![Performance Report](https://img.shields.io/badge/View-Performance%20Report-darkblue)](https://awesomeanil.github.io/adventureworks-2016-extended/Performance.html)
 
-<iframe title="Performace" width=100% height="600" src="https://app.powerbi.com/view?r=eyJrIjoiMTQ4OWRmYjMtMzNkNi00MmI3LTk0YzYtOWFjMWMzYTMxYzIyIiwidCI6ImY2NTRlNzkxLWY4NTgtNDZkNi05MWE5LTE5YzlmZTA4YTc0ZiJ9" frameborder="0" allowFullScreen="true"></iframe>
-
-<iframe title="Performace" width="800" height="486" src="https://app.powerbi.com/view?r=eyJrIjoiMTQ4OWRmYjMtMzNkNi00MmI3LTk0YzYtOWFjMWMzYTMxYzIyIiwidCI6ImY2NTRlNzkxLWY4NTgtNDZkNi05MWE5LTE5YzlmZTA4YTc0ZiJ9" frameborder="0" allowFullScreen="true"></iframe>
-
+<iframe title="Performace" width="600" height="486" src="https://app.powerbi.com/view?r=eyJrIjoiMTQ4OWRmYjMtMzNkNi00MmI3LTk0YzYtOWFjMWMzYTMxYzIyIiwidCI6ImY2NTRlNzkxLWY4NTgtNDZkNi05MWE5LTE5YzlmZTA4YTc0ZiJ9" frameborder="0" allowFullScreen="true"></iframe>
 
 ---
 
