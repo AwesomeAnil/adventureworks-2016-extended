@@ -56,6 +56,8 @@ Below are embedded, fully interactive Power BI reports hosted as `.html` files o
 
 [![Performance Report](https://img.shields.io/badge/View-Performance%20Report-darkblue)](https://awesomeanil.github.io/adventureworks-2016-extended/Performance.html)
 
+<iframe title="Performace" width="1024" height="1060" src="https://app.powerbi.com/view?r=eyJrIjoiMTQ4OWRmYjMtMzNkNi00MmI3LTk0YzYtOWFjMWMzYTMxYzIyIiwidCI6ImY2NTRlNzkxLWY4NTgtNDZkNi05MWE5LTE5YzlmZTA4YTc0ZiJ9" frameborder="0" allowFullScreen="true"></iframe>
+
 
 ---
 
