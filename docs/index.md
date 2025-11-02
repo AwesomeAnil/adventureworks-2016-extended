@@ -52,7 +52,7 @@ Below are embedded, fully interactive Power BI reports hosted as `.html` files o
 
 ### 1️⃣ 📈 Executive Performance Dashboard
 
-[🔗 View Performance Report (New tab)](https://awesomeanil.github.io/adventureworks-2016-extended/Performance.html)
+[🔗 View Performance Report (Opens new tab)](https://awesomeanil.github.io/adventureworks-2016-extended/Performance.html)
 
 
 <iframe title="Performace" width="500" height="486" src="https://app.powerbi.com/view?r=eyJrIjoiMTQ4OWRmYjMtMzNkNi00MmI3LTk0YzYtOWFjMWMzYTMxYzIyIiwidCI6ImY2NTRlNzkxLWY4NTgtNDZkNi05MWE5LTE5YzlmZTA4YTc0ZiJ9" frameborder="0" allowFullScreen="true"></iframe>
@@ -61,7 +61,7 @@ Below are embedded, fully interactive Power BI reports hosted as `.html` files o
 
 ### 2️⃣ 🏪 Reseller Sales Dashboard
 
-[🔗 View Resller Sales Report](https://awesomeanil.github.io/adventureworks-2016-extended/ResellerSales.html)
+[🔗 View Resller Sales Report (opens new tab)](https://awesomeanil.github.io/adventureworks-2016-extended/ResellerSales.html)
 
 <iframe title="ReSeller Sales" width="500" height="486" src="https://app.powerbi.com/view?r=eyJrIjoiNDBkNmE1MDgtYTAwMy00OGMzLThlY2QtYjQ3MWYyYTQwNmUyIiwidCI6ImY2NTRlNzkxLWY4NTgtNDZkNi05MWE5LTE5YzlmZTA4YTc0ZiJ9" frameborder="0" allowFullScreen="true"></iframe>
 
@@ -69,7 +69,7 @@ Below are embedded, fully interactive Power BI reports hosted as `.html` files o
 
 ### 3️⃣ 🌐 Internet Customer Sales Dashboard
 
-[🔗 View Internet Sales Report](https://awesomeanil.github.io/adventureworks-2016-extended/InternetSales.html)
+[🔗 View Internet Sales Report (opens new tab)](https://awesomeanil.github.io/adventureworks-2016-extended/InternetSales.html)
 
 <iframe title="Internet Sales" width="500" height="486" src="https://app.powerbi.com/view?r=eyJrIjoiODY1OWM4NjYtOTI5NC00MjkxLWIwOWItOWM0NjI2MTlmODM3IiwidCI6ImY2NTRlNzkxLWY4NTgtNDZkNi05MWE5LTE5YzlmZTA4YTc0ZiJ9" frameborder="0" allowFullScreen="true"></iframe>
 
