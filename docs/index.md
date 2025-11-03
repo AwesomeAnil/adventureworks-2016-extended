@@ -165,7 +165,7 @@ http://localhost:8888
 **Anil Jacob**  
 *Data Strategy • BI Governance • Analytics Leadership*  
 🌐 [GitHub](https://github.com/AwesomeAnil)  
-💼 [Reach me on LinkedIn](https://linkedin.com/in/anil-jacobs)  
+💼 [LinkedIn](https://linkedin.com/in/anil-jacobs)  
 
 ---
 
